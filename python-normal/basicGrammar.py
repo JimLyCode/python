@@ -30,3 +30,6 @@ print("123 ", "456")
 
 # 打印脚本传入参数, sys.argv[0] 代表文件本身路径, 所带参数从 sys.argv[1] 开始
 print(sys.argv)
+
+del paragraph  # paragraph
+

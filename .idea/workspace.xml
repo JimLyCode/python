@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7fcb7f0-2886-4e28-bef8-31d9fdcdd397" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python-normal/mysql/select.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/basics/dataType.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-normal/basicGrammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-normal/basicGrammar.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,17 +14,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python$basicGrammar.coverage" NAME="basicGrammar Coverage Results" MODIFIED="1527149208438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
+    <SUITE FILE_PATH="coverage/python$basicGrammar.coverage" NAME="basicGrammar Coverage Results" MODIFIED="1527152087195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
     <SUITE FILE_PATH="coverage/python$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1527148574828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
+    <SUITE FILE_PATH="coverage/python$dataType.coverage" NAME="dataType Coverage Results" MODIFIED="1527154839601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/basics" />
     <SUITE FILE_PATH="coverage/python$select.coverage" NAME="select Coverage Results" MODIFIED="1527150261444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/mysql" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="select.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python-normal/mysql/select.py">
+      <file leaf-file-name="dataType.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python-normal/basics/dataType.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="288">
+              <caret line="90" column="74" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -37,6 +39,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>str</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="E:\WorkSoft\git\Git\bin\git.exe" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -46,8 +53,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/python-normal/mysql.py" />
-        <option value="$PROJECT_DIR$/python-normal/basicGrammar.py" />
         <option value="$PROJECT_DIR$/python-normal/mysql/select.py" />
+        <option value="$PROJECT_DIR$/python-normal/basicGrammar.py" />
+        <option value="$PROJECT_DIR$/python-normal/basics/dataType.py" />
       </list>
     </option>
   </component>
@@ -167,6 +175,11 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-normal" type="462c0819:PsiDirectoryNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python-normal" type="462c0819:PsiDirectoryNode" />
               <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -208,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.select">
+  <component name="RunManager" selected="Python.dataType">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -245,6 +258,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-normal/basicGrammar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dataType" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-normal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-normal/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-normal/basics/dataType.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,11 +419,13 @@
       <item itemvalue="Python.mysql" />
       <item itemvalue="Python.basicGrammar" />
       <item itemvalue="Python.select" />
+      <item itemvalue="Python.dataType" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.select" />
+        <item itemvalue="Python.dataType" />
         <item itemvalue="Python.basicGrammar" />
+        <item itemvalue="Python.select" />
         <item itemvalue="Python.mysql" />
       </list>
     </recent_temporary>
@@ -408,7 +442,7 @@
       <updated>1527148503285</updated>
       <workItem from="1527148504690" duration="1064000" />
       <workItem from="1527149644524" duration="28000" />
-      <workItem from="1527149688565" duration="575000" />
+      <workItem from="1527149688565" duration="5158000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1527149766386</created>
@@ -424,11 +458,25 @@
       <option name="project" value="LOCAL" />
       <updated>1527149926206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="python for mysql select">
+      <created>1527150460173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527150460173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="python for basic grammar">
+      <created>1527151323685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527151323685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1667000" />
+    <option name="totallyTimeSpent" value="6250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
@@ -442,19 +490,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32993197" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25375536" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20761803" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,16 +520,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="python for mysql select" />
+    <MESSAGE value="python for basic grammar" />
+    <option name="LAST_COMMIT_MESSAGE" value="python for basic grammar" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python-normal/basicGrammar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-normal/basicGrammar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -498,8 +541,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python-normal/mysql/select.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="408">
           <caret line="17" column="19" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#4170#4174#0" expanded="true" />
+            <element signature="e#4180#4184#0" expanded="true" />
+            <element signature="e#4263#4267#0" expanded="true" />
+            <element signature="e#4273#4277#0" expanded="true" />
+            <element signature="e#4288#4292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/basicGrammar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/python_stubs/-1012307783/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1096" column="8" selection-start-line="1096" selection-start-column="8" selection-end-line="1096" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/basics/dataType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="90" column="74" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
         </state>
       </provider>
     </entry>

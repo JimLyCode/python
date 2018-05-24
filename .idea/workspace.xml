@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7fcb7f0-2886-4e28-bef8-31d9fdcdd397" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python-normal/basics/dataType.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/basics/operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-normal/basicGrammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-normal/basicGrammar.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,16 +16,29 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python$basicGrammar.coverage" NAME="basicGrammar Coverage Results" MODIFIED="1527152087195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
     <SUITE FILE_PATH="coverage/python$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1527148574828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
+    <SUITE FILE_PATH="coverage/python$operator.coverage" NAME="operator Coverage Results" MODIFIED="1527155700908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/basics" />
     <SUITE FILE_PATH="coverage/python$dataType.coverage" NAME="dataType Coverage Results" MODIFIED="1527154839601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/basics" />
     <SUITE FILE_PATH="coverage/python$select.coverage" NAME="select Coverage Results" MODIFIED="1527150261444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/mysql" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dataType.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python-normal/basics/dataType.py">
+      <file leaf-file-name="operator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python-normal/basics/operator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="90" column="74" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
+            <state relative-caret-position="96">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-normal/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -56,6 +69,8 @@
         <option value="$PROJECT_DIR$/python-normal/mysql/select.py" />
         <option value="$PROJECT_DIR$/python-normal/basicGrammar.py" />
         <option value="$PROJECT_DIR$/python-normal/basics/dataType.py" />
+        <option value="$PROJECT_DIR$/python-normal/common.py" />
+        <option value="$PROJECT_DIR$/python-normal/basics/operator.py" />
       </list>
     </option>
   </component>
@@ -221,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dataType">
+  <component name="RunManager" selected="Python.operator">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -296,6 +311,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\GitHub\python\python-normal\mysql\mysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="operator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-normal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-normal/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-normal/basics/operator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -420,9 +454,11 @@
       <item itemvalue="Python.basicGrammar" />
       <item itemvalue="Python.select" />
       <item itemvalue="Python.dataType" />
+      <item itemvalue="Python.operator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.operator" />
         <item itemvalue="Python.dataType" />
         <item itemvalue="Python.basicGrammar" />
         <item itemvalue="Python.select" />
@@ -442,7 +478,7 @@
       <updated>1527148503285</updated>
       <workItem from="1527148504690" duration="1064000" />
       <workItem from="1527149644524" duration="28000" />
-      <workItem from="1527149688565" duration="5158000" />
+      <workItem from="1527149688565" duration="6009000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1527149766386</created>
@@ -472,11 +508,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527151323685</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="python for data type">
+      <created>1527154883253</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527154883253</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6250000" />
+    <option name="totallyTimeSpent" value="7101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
@@ -490,12 +533,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32993197" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20761803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20761803" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -522,7 +565,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="python for mysql select" />
     <MESSAGE value="python for basic grammar" />
-    <option name="LAST_COMMIT_MESSAGE" value="python for basic grammar" />
+    <MESSAGE value="python for data type" />
+    <option name="LAST_COMMIT_MESSAGE" value="python for data type" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python-normal/basicGrammar.py">
@@ -582,8 +626,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python-normal/basics/dataType.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="90" column="74" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/basics/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -3,6 +3,7 @@ import sys
 print(sys.argv)
 delimiter="========================="
 
+
 '''
 Python字符串
 '''
@@ -16,6 +17,7 @@ print(string * 2)        # 输出字符串两次
 print(string + "TEST")   # 输出连接的字符串
 print(delimiter)
 del string
+
 
 '''
 Python列表
@@ -32,6 +34,7 @@ print(list + tinylist)  # 打印组合的列表
 print(delimiter)
 del list, tinylist
 
+
 '''
 Python元组
 '''
@@ -46,6 +49,7 @@ print(tuple * 2)            # 输出元组两次
 print(tuple + tinytuple)    # 打印组合的元组
 print(delimiter)
 del tuple, tinytuple
+
 
 '''
 Python 字典
@@ -63,6 +67,7 @@ print(tinydict.keys())      # 输出所有键
 print(tinydict.values())    # 输出所有值
 print(delimiter)
 del dict, tinydict
+
 
 '''
 Python数据类型转换

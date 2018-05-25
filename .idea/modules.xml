@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/python-normal/python-normal.iml" filepath="$PROJECT_DIR$/python-normal/python-normal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python-senior/python-senior.iml" filepath="$PROJECT_DIR$/python-senior/python-senior.iml" />
     </modules>
   </component>
 </project>

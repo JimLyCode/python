@@ -63,9 +63,13 @@ for num in range(10, 20):               # 迭代 10 到 20 之间的数字
         print(num, "是一个质数")
 print(common.delimiter)
 
-
-
-
+'Python pass是空语句, 是为了保持程序结构的完整性. pass 不做任何事情, 一般用做占位语句'
+for letter in 'Python':
+    if letter == 'h':
+        pass
+        print('这是 pass 块')
+    print('当前字母 :', letter)
+print("Good bye!")
 
 
 

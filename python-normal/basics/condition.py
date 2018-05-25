@@ -2,6 +2,12 @@ import sys
 sys.path.append(r"E:\GitHub\python\python-normal")
 import common
 
+"""
+    if
+    while   while ... else
+    for     for ... else
+"""
+
 num = 100
 if num >= 90:
     print("score", num, "is A.")

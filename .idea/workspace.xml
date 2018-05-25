@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7fcb7f0-2886-4e28-bef8-31d9fdcdd397" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python-normal/basics/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/basics/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/packageTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/package_python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/package_python/python1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-normal/package_python/python2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-normal/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-normal/common.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python$packageTest.coverage" NAME="packageTest Coverage Results" MODIFIED="1527236801354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
     <SUITE FILE_PATH="coverage/python$basicGrammar.coverage" NAME="basicGrammar Coverage Results" MODIFIED="1527152087195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
     <SUITE FILE_PATH="coverage/python$mysql.coverage" NAME="mysql Coverage Results" MODIFIED="1527148574828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
     <SUITE FILE_PATH="coverage/python$list.coverage" NAME="list Coverage Results" MODIFIED="1527236069846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/basics" />
@@ -21,15 +25,67 @@
     <SUITE FILE_PATH="coverage/python$dataType.coverage" NAME="dataType Coverage Results" MODIFIED="1527154839601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/basics" />
     <SUITE FILE_PATH="coverage/python$condition.coverage" NAME="condition Coverage Results" MODIFIED="1527233982588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/basics" />
     <SUITE FILE_PATH="coverage/python$select.coverage" NAME="select Coverage Results" MODIFIED="1527150261444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/mysql" />
-    <SUITE FILE_PATH="coverage/python$common.coverage" NAME="common Coverage Results" MODIFIED="1527235531261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
+    <SUITE FILE_PATH="coverage/python$function.coverage" NAME="function Coverage Results" MODIFIED="1527236636995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal/basics" />
+    <SUITE FILE_PATH="coverage/python$common.coverage" NAME="common Coverage Results" MODIFIED="1527236818297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-normal" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="list.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python-normal/basics/list.py">
+      <file leaf-file-name="common.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python-normal/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-normal/basics/function.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="python1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-normal/package_python/python1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="10" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-normal/package_python/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="packageTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-normal/packageTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="python2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python-normal/package_python/python2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -62,8 +118,13 @@
         <option value="$PROJECT_DIR$/python-normal/basics/operator.py" />
         <option value="$PROJECT_DIR$/python-normal/basics/dataType.py" />
         <option value="$PROJECT_DIR$/python-normal/basics/condition.py" />
-        <option value="$PROJECT_DIR$/python-normal/common.py" />
         <option value="$PROJECT_DIR$/python-normal/basics/list.py" />
+        <option value="$PROJECT_DIR$/python-normal/basics/function.py" />
+        <option value="$PROJECT_DIR$/python-normal/package_python/python1.py" />
+        <option value="$PROJECT_DIR$/python-normal/package_python/python2.py" />
+        <option value="$PROJECT_DIR$/python-normal/packageTest.py" />
+        <option value="$PROJECT_DIR$/python-normal/package_python/__init__.py" />
+        <option value="$PROJECT_DIR$/python-normal/common.py" />
       </list>
     </option>
   </component>
@@ -184,7 +245,7 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-normal" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
+              <item name="package_python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list">
+  <component name="RunManager" selected="Python.common">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -285,7 +346,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="dataType" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-normal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,7 +359,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-normal/basics/dataType.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-normal/basics/function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,7 +384,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="operator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="packageTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-normal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,12 +392,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-normal/basics" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-normal" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-normal/basics/operator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-normal/packageTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,19 +499,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.dataType" />
-      <item itemvalue="Python.operator" />
       <item itemvalue="Python.condition" />
       <item itemvalue="Python.common" />
       <item itemvalue="Python.list" />
+      <item itemvalue="Python.function" />
+      <item itemvalue="Python.packageTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.list" />
         <item itemvalue="Python.common" />
+        <item itemvalue="Python.packageTest" />
+        <item itemvalue="Python.function" />
+        <item itemvalue="Python.list" />
         <item itemvalue="Python.condition" />
-        <item itemvalue="Python.operator" />
-        <item itemvalue="Python.dataType" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +530,7 @@
       <workItem from="1527149688565" duration="6131000" />
       <workItem from="1527217219508" duration="1780000" />
       <workItem from="1527230970319" duration="3938000" />
-      <workItem from="1527234917893" duration="1212000" />
+      <workItem from="1527234917893" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1527149766386</created>
@@ -534,11 +595,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527234037374</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="python">
+      <created>1527236136748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527236136748</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14153000" />
+    <option name="totallyTimeSpent" value="14844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1065" extended-state="6" />
@@ -554,11 +622,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.2664399" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.2664399" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32993197" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21298283" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21298283" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -696,16 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python-normal/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python-normal/basicGrammar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -720,6 +778,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/basics/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/package_python/python1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="10" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/package_python/python2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/package_python/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/packageTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-normal/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

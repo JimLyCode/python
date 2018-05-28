@@ -20,3 +20,15 @@ print(R"\n")
 'Python字符串内建函数: http://www.runoob.com/python/python-strings.html'
 print("asd".capitalize())
 
+
+"""
+引入common库
+
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+import common
+print(common.delimiter)
+"""

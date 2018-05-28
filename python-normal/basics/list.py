@@ -17,5 +17,12 @@ for company in list:
 
 print(list.reverse())
 
+# 指定第二个元素进行排序
+def takeSencode(elem):
+    return elem[1]
+random = [(2, 2), (3, 4), (4, 1), (1, 3)]
+# 指定第二个元素进行排序并降序
+random.sort(key=takeSencode, reverse=True)
+print(random)
 
 
